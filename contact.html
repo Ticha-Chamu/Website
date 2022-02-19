@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css"> 
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" ></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+<section id="nav-bar">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html"><img src="logo1.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      <!-- </li> -->
+      <li class="nav-item">
+        <a class="nav-link" href="services.html">Services</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li></li></ul>
+       <div class="navbar-right">
+      <a href="#" class="fa fa-facebook" style="float: right"></a>
+     <a href="#" class="fa fa-twitter" style="float: right"></a>
+     <a href="#" class="fa fa-linkedin" style="float: right"></a>
+     <a href="https://www.instagram.com/_tichafara" class="fa fa-instagram" style="float: right"></a>
+   </div>
+    
+  </div>
+</nav>
+</section>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 15 || document.documentElement.scrollTop > 15) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+<section id="contact">
+<div class="contact-title">
+  <h1>Hello</h1>
+  <h2>Ready to serve you</h2>
+  
+</div>
+<div class="input-fields">
+  <div class="items">
+    <label for="name" class="label">name</label>
+    <input id="name" type="text" class="input" required>
+</div>
+<div class="items">
+  <label for="email" class="label">Email</label>
+  <input id="email" type="text" class="input" required>
+</div>
+<div class="items">
+  <label for="subject" class="label">Subject</label>
+  <input id="subject" type="text" class="input" required>
+</div>
+<div class="items">
+  <label for="msg" class="label">Message</label>
+  <textarea id="msg" class="text-area" required></textarea>
+</div>
+
+ <input type="submit" value="Submit">
+
+</section>
+<section id="contact-info">
+  <div class="container">
+  <div class ="row">
+  <div class="col-md-6">
+    <h2>Contact Info</h2>
+    <div class="contact-info-content">
+   <p>Call-+263783014437<br><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" version="1.1" role="img" aria-labelledby="at-svg-email-9" class="at-icon at-icon-email" style="fill: rgb(30, 184, 184); width: 32px; height: 32px;"><title id="at-svg-email-9">Email</title><g><g fill-rule="evenodd"></g><path d="M27 22.757c0 1.24-.988 2.243-2.19 2.243H7.19C5.98 25 5 23.994 5 22.757V13.67c0-.556.39-.773.855-.496l8.78 5.238c.782.467 1.95.467 2.73 0l8.78-5.238c.472-.28.855-.063.855.495v9.087z"></path><path d="M27 9.243C27 8.006 26.02 7 24.81 7H7.19C5.988 7 5 8.004 5 9.243v.465c0 .554.385 1.232.857 1.514l9.61 5.733c.267.16.8.16 1.067 0l9.61-5.733c.473-.283.856-.96.856-1.514v-.465z"></path></g></svg>tichachamu12@gmail.com</p>
+ 
+</div>
+
+</div>
+</div>
+</div>
+</section>
+     <footer id="footer">
+<div class="container">
+<div class="row">
+<div class="col-md-3 col-sm-6 col-xs-12">
+<div id="text-5" class="widget widget_text"><div class="widget-title"><h5>SITE LINKS</h5></div> <div class="textwidget"><ul><li><a href="#" title="My work"><strong>My work</a></li><li><a href="#" title="News">News</a></li><li><a href="#" title="Announcement">Announcement</strong></a></li></ul></div>
+</div> </div>
+<div class="col-md-3 col-sm-6 col-xs-12">
+<div id="text-6" class="widget widget_text"><div class="widget-title"><h5>INFORMATION</h5></div> <div class="textwidget"><ul><li><a href="#" title="Pricing"><strong>Pricing</a></li><li><a href="#" title="Terms">Terms</a></li><li><a href="#" title="Blog">Blog</a></li></ul></strong></div>
+</div> </div>
+
+<div class="col-md-3 col-sm-6 col-xs-12">
+</div>
+</div>
+</div>
+<hr style="background-color: white; height: 1px; position: relative; bottom: 0px;  border:none" width="100%">
+
+</footer>
+<div class="bottom-footer">
+<div class="container">
+<p class="copyright"><hr>
+<span>TichaChamu</span>
+<span class="bottom-copyright" data-customizer="copyright-credit">© Copyright 2019. All Rights Reserved.</span>
+</p>
+</div>
+</div>
+
+</body>
+</html>
